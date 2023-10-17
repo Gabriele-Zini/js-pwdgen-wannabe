@@ -7,9 +7,9 @@
 
 **Data collection**
 
-1. Ask the user for their name and set set the promtp result to lower case;
+1. Ask the user for their name and set the promtp result to lower case;
 
-2. Ask the user for their surname and set set the promtp result to lower case;
+2. Ask the user for their surname and set the promtp result to lower case;
 
 3. Ask the user for their favorite color and set the promtp result to lower case.
 
