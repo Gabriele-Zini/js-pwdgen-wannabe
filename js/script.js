@@ -14,7 +14,7 @@ const lowerCaseFavouriteColor = favouriteColor.toLowerCase();
 console.log(lowerCaseFavouriteColor);
 
 // random number between 1 and 99
-let randomNumber = Math.ceil(Math.random() * 99);
+let randomNumber = Math.ceil(Math.random() * 98 + 1);
 console.log(randomNumber);
 
 // generate a random password
