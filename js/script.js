@@ -18,10 +18,13 @@ let randomNumber = Math.ceil(Math.random() * 98 + 1);
 console.log(randomNumber);
 
 // generate a random password
-let randomPassword = `Hello User, your random password is <span class="red-text">"${lowerCaseUserName}${lowerCaseUserSurame}${lowerCaseFavouriteColor}${randomNumber}"</span>`;
-console.log(randomPassword);
+let randomPassword = lowerCaseUserName + lowerCaseUserSurame + lowerCaseFavouriteColor + randomNumber;
+
+// message for the user
+const message = `Hello User, your random password is <span class="red-text">${randomPassword}</span>`;
+console.log(message);
 
 
 // html output
-document.getElementById('generatedPassword').innerHTML = randomPassword;
+document.getElementById('generatedPassword').innerHTML = message;
 

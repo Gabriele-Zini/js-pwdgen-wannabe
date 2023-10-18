@@ -34,9 +34,9 @@ console.log(lowerCaseFavouriteColor);
 
 **Program logic**
 
-1. generate a random password with "nameSurnameFavoriteColorRandomNumber" using Math.random() method;
+1. the randomNumber is between 1 and 99;
 
-2. the randomNumber is between 1 and 99;
+2.  generate a random password with "nameSurnameFavoriteColorRandomNumber" using Math.random() method; 
 
 3. set up message for user.
 
@@ -46,6 +46,9 @@ let randomNumber = Math.ceil(Math.random() * 98 + 1);
 console.log(randomNumber);
 
 // generate a random password
+let randomPassword = lowerCaseUserName + lowerCaseUserSurame + favouriteColor + randomNumber;
+
+// message for the user
 let randomPassword = `Hello User, your random password is <span class="red-text">"${lowerCaseUserName}${lowerCaseUserSurame}${lowerCaseFavouriteColor}${randomNumber}"</span>`;
 console.log(randomPassword);
 ``` 
