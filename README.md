@@ -49,8 +49,8 @@ console.log(randomNumber);
 let randomPassword = lowerCaseUserName + lowerCaseUserSurame + favouriteColor + randomNumber;
 
 // message for the user
-let randomPassword = `Hello User, your random password is <span class="red-text">"${lowerCaseUserName}${lowerCaseUserSurame}${lowerCaseFavouriteColor}${randomNumber}"</span>`;
-console.log(randomPassword);
+const message = `Hello User, your random password is <span class="red-text">${randomPassword}</span>`;
+console.log(message);
 ``` 
 <br>
 
@@ -60,7 +60,7 @@ console.log(randomPassword);
 
 ``` javascript
 // html output
-document.getElementById('generatedPassword').innerHTML = randomPassword;
+document.getElementById('generatedPassword').innerHTML = message;
 ```
 
 
